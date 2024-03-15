@@ -41,7 +41,7 @@ jobs:
         uses: koyeb/action-git-deploy@v1
         with:
           app-name: hugo-${{ github.ref_name }}
-          service-env: "PORT=80"
+          git-builder: "docker"
           service-ports: "80:http"
           service-routes: "/:80"
           git-url: "github.com/${{ inputs.git-url || github.repository }}"
