@@ -1,0 +1,4 @@
+baseURL = "https://www.koyeb.com/"
+languageCode = "en-us"
+title = "Hugo hosted on Koyeb"
+theme = "ananke"
